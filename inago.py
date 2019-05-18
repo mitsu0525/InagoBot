@@ -21,8 +21,8 @@ class InagoFlyer:
         self.SellVolume = 0
         self.Merit = None
         self.__AvgTime = 20
-        self.__Threshold = 200
-        self.__Difference = 100
+        self.__Threshold = 500
+        self.__Difference = 250
         options = Options()
         # ヘッドレスモード等オプション設定
         options.add_argument("--headless")
